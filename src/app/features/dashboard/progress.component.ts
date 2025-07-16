@@ -81,7 +81,7 @@ import { CommonModule } from '@angular/common';
           <!-- Development -->
           <div>
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-lg font-medium text-gray-900">Desarrollo Web</h3>
+              <h3 class="text-lg font-medium text-gray-900">Seguridad y salud en el trabajo</h3>
               <span class="text-sm font-medium text-gray-600">8/10 cursos</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-3">
@@ -93,7 +93,7 @@ import { CommonModule } from '@angular/common';
           <!-- Programming -->
           <div>
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-lg font-medium text-gray-900">Programación</h3>
+              <h3 class="text-lg font-medium text-gray-900">Informática básica</h3>
               <span class="text-sm font-medium text-gray-600">3/5 cursos</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-3">
@@ -105,7 +105,7 @@ import { CommonModule } from '@angular/common';
           <!-- Design -->
           <div>
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-lg font-medium text-gray-900">Diseño</h3>
+              <h3 class="text-lg font-medium text-gray-900">Electrónica de equipo pesado</h3>
               <span class="text-sm font-medium text-gray-600">1/2 cursos</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-3">
@@ -126,22 +126,22 @@ import { CommonModule } from '@angular/common';
         <div class="space-y-4">
           <div class="flex items-center space-x-3">
             <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <p class="text-sm text-gray-600">Completaste la lección "Introducción a Angular"</p>
+            <p class="text-sm text-gray-600">Completaste la lección "Introducción a la seguridad industrial"</p>
             <span class="text-xs text-gray-400">Hace 2 horas</span>
           </div>
           <div class="flex items-center space-x-3">
             <div class="w-2 h-2 bg-green-500 rounded-full"></div>
-            <p class="text-sm text-gray-600">Te inscribiste en el curso "React Avanzado"</p>
+            <p class="text-sm text-gray-600">Te inscribiste en el curso "Informática básica"</p>
             <span class="text-xs text-gray-400">Ayer</span>
           </div>
           <div class="flex items-center space-x-3">
             <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
-            <p class="text-sm text-gray-600">Obtuviste el certificado "JavaScript Básico"</p>
+            <p class="text-sm text-gray-600">Obtuviste el certificado "Procesos de Molienda"</p>
             <span class="text-xs text-gray-400">Hace 3 días</span>
           </div>
           <div class="flex items-center space-x-3">
             <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
-            <p class="text-sm text-gray-600">Completaste el curso "HTML & CSS"</p>
+            <p class="text-sm text-gray-600">Completaste el curso "Electrónica básica"</p>
             <span class="text-xs text-gray-400">Hace 1 semana</span>
           </div>
         </div>

@@ -12,8 +12,11 @@ import { AuthService } from '../../core/services/auth.service';
     <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div class="max-w-md w-full space-y-8">
         <div>
-          <div class="mx-auto h-12 w-12 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span class="text-white font-bold text-xl">C</span>
+        <div class="mx-auto flex justify-center">
+            <img 
+              src="assets/cetemin.jpg" 
+              alt="CETEMIN Logo" 
+              class="h-24 w-auto">
           </div>
           <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Inicia sesión en tu cuenta

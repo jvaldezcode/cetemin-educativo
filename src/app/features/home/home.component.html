@@ -1,0 +1,120 @@
+<!-- Header simple -->
+<nav class="flex items-center justify-between px-8 py-4 border-b bg-white shadow-sm">
+    <div class="text-2xl font-bold text-blue-600">
+      <div class="flex items-center">
+        <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-2">
+          <span class="text-white font-bold text-lg">C</span>
+        </div>
+        CETEMIN
+      </div>
+    </div>
+    <div class="flex items-center gap-6">
+      <a class="text-gray-700 font-medium hover:text-blue-600" href="#cursos">CURSOS</a>
+      <a class="text-gray-700 font-medium hover:text-blue-600" href="#soporte">SOPORTE</a>
+      <button class="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors" routerLink="/auth/login">ACCEDER</button>
+      <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors" routerLink="/auth/register">REGISTRARSE</button>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-8 py-12 bg-gradient-to-br from-blue-50 to-blue-100">
+    <div class="flex-1">
+      <h1 class="text-4xl font-bold mb-4 text-gray-900">Bienvenido a la Plataforma de Enseñanza de CETEMIN</h1>
+      <p class="mb-2 text-gray-700">
+        En CETEMIN creemos en el poder del aprendizaje dinámico, práctico y personalizado. Esta plataforma ha sido diseñada para acompañarte en tu proceso de formación profesional.
+      </p>
+      <p class="mb-2 text-gray-700">
+        Los recursos están estructurados por unidades, actividades interactivas, material de refuerzo y herramientas que te ayudarán a aprender a tu ritmo y con total autonomía.
+      </p>
+      <p class="mb-4 font-semibold text-blue-700">
+        ¡Bienvenido a tu nueva forma de aprender!
+      </p>
+      <div class="flex gap-4">
+        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" routerLink="/auth/login">EMPEZAR</button>
+        <button class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors" (click)="scrollToCursos()">Más</button>
+      </div>
+    </div>
+    <div class="flex-1 flex justify-center mt-8 md:mt-0">
+      <div class="w-64 h-40 bg-blue-200 flex items-center justify-center rounded-lg shadow-lg">
+        <span class="text-blue-600 font-medium">[Imagen]</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Cursos Destacados -->
+  <section id="cursos-destacados" class="px-8 py-12 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-2 text-gray-900">Explora nuestros cursos disponibles</h2>
+    <p class="text-center text-gray-600 mb-8">
+      Aquí encontrarás cursos estructurados por unidades, actividades interactivas, material de refuerzo y herramientas que te ayudarán a aprender a tu ritmo y con total autonomía.
+    </p>
+    <div class="flex flex-col md:flex-row justify-center gap-8">
+      <div *ngFor="let curso of cursosDestacados" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow flex flex-col max-w-sm">
+        <!-- Header colorido dinámico -->
+        <div class="h-48" [ngClass]="{
+          'bg-gradient-to-br from-blue-400 to-blue-600': curso.color === 'blue',
+          'bg-gradient-to-br from-green-400 to-green-600': curso.color === 'green',
+          'bg-gradient-to-br from-purple-400 to-purple-600': curso.color === 'purple',
+          'bg-gradient-to-br from-yellow-400 to-yellow-600': curso.color === 'yellow',
+          'bg-gradient-to-br from-red-400 to-red-600': curso.color === 'red',
+          'bg-gradient-to-br from-indigo-400 to-indigo-600': curso.color === 'indigo'
+        }"></div>
+        
+        <div class="p-6 flex flex-col h-full">
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-medium" [ngClass]="{
+                'text-blue-600': curso.color === 'blue',
+                'text-green-600': curso.color === 'green',
+                'text-purple-600': curso.color === 'purple',
+                'text-yellow-600': curso.color === 'yellow',
+                'text-red-600': curso.color === 'red',
+                'text-indigo-600': curso.color === 'indigo'
+              }">{{ curso.categoria }}</span>
+              <span class="text-sm text-gray-500">{{ curso.rating }} ⭐</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">{{ curso.nombre }}</h3>
+            <p class="text-gray-600 text-sm mb-4">{{ curso.descripcion }}</p>
+          </div>
+          <div class="flex items-center justify-between mt-auto">
+            <span class="text-lg font-semibold" [ngClass]="{
+              'text-green-600': curso.disponible,
+              'text-yellow-600': !curso.disponible
+            }">
+              {{ curso.disponible ? 'Disponible' : 'Próximamente' }}
+            </span>
+            <button class="px-4 py-2 rounded-lg transition-colors" [ngClass]="{
+              'bg-blue-600 hover:bg-blue-700 text-white': curso.color === 'blue',
+              'bg-green-600 hover:bg-green-700 text-white': curso.color === 'green',
+              'bg-purple-600 hover:bg-purple-700 text-white': curso.color === 'purple',
+              'bg-yellow-600 hover:bg-yellow-700 text-white': curso.color === 'yellow',
+              'bg-red-600 hover:bg-red-700 text-white': curso.color === 'red',
+              'bg-indigo-600 hover:bg-indigo-700 text-white': curso.color === 'indigo'
+            }" [disabled]="!curso.disponible">
+              {{ curso.disponible ? 'Ver Curso' : 'Próximamente' }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer simple -->
+  <footer class="bg-gray-900 text-white py-8 mt-12">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center px-8">
+      <div>
+        <div class="mb-2 font-bold text-blue-400">Enlaces útiles:</div>
+        <ul class="text-sm text-gray-300">
+          <li>Manual del estudiante</li>
+          <li>Normas académicas</li>
+          <li>Contactar a un profesor</li>
+        </ul>
+      </div>
+      <div class="mt-6 md:mt-0">
+        <div class="mb-2 font-bold text-blue-400">Contacto:</div>
+        <div class="text-sm text-gray-300">soporte&#64;cetemin.edu.pe</div>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 mt-6">
+      © 2023 CETEMIN - Plataforma exclusiva para estudiantes
+    </div>
+  </footer>

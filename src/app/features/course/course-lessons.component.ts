@@ -30,7 +30,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Introducción a Angular</h3>
+                  <h3 class="font-medium text-gray-900">Introducción a la seguridad industrial</h3>
                   <p class="text-sm text-gray-500">15 minutos • Video</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Configuración del Entorno</h3>
+                  <h3 class="font-medium text-gray-900">Normativas legales</h3>
                   <p class="text-sm text-gray-500">20 minutos • Video</p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Primer Componente</h3>
+                  <h3 class="font-medium text-gray-900">Actos y condiciones</h3>
                   <p class="text-sm text-gray-500">25 minutos • Video</p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Data Binding</h3>
+                  <h3 class="font-medium text-gray-900">Documentos legales</h3>
                   <p class="text-sm text-gray-500">30 minutos • Video</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Directivas Estructurales</h3>
+                  <h3 class="font-medium text-gray-900">IPERC y ATS</h3>
                   <p class="text-sm text-gray-500">35 minutos • Video</p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Servicios</h3>
+                  <h3 class="font-medium text-gray-900">Que es un PETAR</h3>
                   <p class="text-sm text-gray-500">40 minutos • Video</p>
                 </div>
               </div>
@@ -150,7 +150,7 @@ import { RouterModule } from '@angular/router';
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-medium text-gray-900">Routing</h3>
+                  <h3 class="font-medium text-gray-900">Casos reales</h3>
                   <p class="text-sm text-gray-500">45 minutos • Video</p>
                 </div>
               </div>

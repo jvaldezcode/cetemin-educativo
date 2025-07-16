@@ -22,10 +22,10 @@ import { CommonModule } from '@angular/common';
           </svg>
         </div>
         <div class="p-6">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">JavaScript Básico</h3>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Procesos de Molienda</h3>
           <p class="text-sm text-gray-600 mb-4">Completado el 15 de Noviembre, 2024</p>
           <div class="flex items-center justify-between">
-            <span class="text-sm text-gray-500">Código: JS-BAS-001</span>
+            <span class="text-sm text-gray-500">Código: PROC-MOL-001</span>
             <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
               Descargar
             </button>
@@ -41,10 +41,10 @@ import { CommonModule } from '@angular/common';
           </svg>
         </div>
         <div class="p-6">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">HTML & CSS</h3>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Electrónica básica</h3>
           <p class="text-sm text-gray-600 mb-4">Completado el 1 de Octubre, 2024</p>
           <div class="flex items-center justify-between">
-            <span class="text-sm text-gray-500">Código: HTML-CSS-001</span>
+            <span class="text-sm text-gray-500">Código: ELEC-BAS-001</span>
             <button class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
               Descargar
             </button>
@@ -60,10 +60,10 @@ import { CommonModule } from '@angular/common';
           </svg>
         </div>
         <div class="p-6">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Git Básico</h3>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Electrotécnia Industrial</h3>
           <p class="text-sm text-gray-600 mb-4">Completado el 15 de Septiembre, 2024</p>
           <div class="flex items-center justify-between">
-            <span class="text-sm text-gray-500">Código: GIT-BAS-001</span>
+            <span class="text-sm text-gray-500">Código: ELECT-BAS-001</span>
             <button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
               Descargar
             </button>

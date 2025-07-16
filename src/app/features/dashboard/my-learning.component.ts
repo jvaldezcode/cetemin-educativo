@@ -74,7 +74,7 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-lg font-semibold text-gray-900">Angular Avanzado</h3>
+                <h3 class="text-lg font-semibold text-gray-900">Seguridad y salud en el trabajo</h3>
                 <p class="text-sm text-gray-600 mb-3">Lección 5 de 12 • 42% completado</p>
                 <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
                   <div class="bg-blue-600 h-2 rounded-full" style="width: 42%"></div>
@@ -98,13 +98,13 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-lg font-semibold text-gray-900">React Hooks</h3>
+                <h3 class="text-lg font-semibold text-gray-900">Informática básica</h3>
                 <p class="text-sm text-gray-600 mb-3">Lección 3 de 8 • 37% completado</p>
                 <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
                   <div class="bg-green-600 h-2 rounded-full" style="width: 37%"></div>
                 </div>
                 <div class="flex items-center justify-between">
-                  <span class="text-sm text-gray-500">Próxima lección: useEffect Hook</span>
+                  <span class="text-sm text-gray-500">Próxima lección: Excel básico</span>
                   <button class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
                     Continuar
                   </button>
@@ -122,13 +122,13 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-lg font-semibold text-gray-900">TypeScript</h3>
+                <h3 class="text-lg font-semibold text-gray-900">Electrónica de equipo pesado</h3>
                 <p class="text-sm text-gray-600 mb-3">Lección 7 de 10 • 70% completado</p>
                 <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
                   <div class="bg-purple-600 h-2 rounded-full" style="width: 70%"></div>
                 </div>
                 <div class="flex items-center justify-between">
-                  <span class="text-sm text-gray-500">Próxima lección: Interfaces Avanzadas</span>
+                  <span class="text-sm text-gray-500">Próxima lección: Transistores</span>
                   <button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
                     Continuar
                   </button>
@@ -155,7 +155,7 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div>
-                <h4 class="text-sm font-medium text-gray-900">JavaScript Básico</h4>
+                <h4 class="text-sm font-medium text-gray-900">Procesos de Molienda</h4>
                 <p class="text-xs text-gray-500">Completado hace 2 semanas</p>
               </div>
             </div>
@@ -169,7 +169,7 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div>
-                <h4 class="text-sm font-medium text-gray-900">HTML & CSS</h4>
+                <h4 class="text-sm font-medium text-gray-900">Electrónica básica</h4>
                 <p class="text-xs text-gray-500">Completado hace 1 mes</p>
               </div>
             </div>
@@ -183,7 +183,7 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <div>
-                <h4 class="text-sm font-medium text-gray-900">Git Básico</h4>
+                <h4 class="text-sm font-medium text-gray-900">Electrotécnia Industrial</h4>
                 <p class="text-xs text-gray-500">Completado hace 2 meses</p>
               </div>
             </div>

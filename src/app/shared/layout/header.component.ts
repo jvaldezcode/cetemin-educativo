@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Router } from '@angular/router';
+import { RouterModule, Router, NavigationEnd } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-header',
@@ -9,15 +10,15 @@ import { AuthService } from '../../core/services/auth.service';
   imports: [CommonModule, RouterModule],
   template: `
     <header class="bg-white border-b border-gray-200 shadow-sm">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="w-full px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex items-center">
             <a routerLink="/" class="flex items-center space-x-2">
-              <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span class="text-white font-bold text-lg">C</span>
-              </div>
-              <span class="text-xl font-bold text-gray-900">CETEMIN</span>
+              <img 
+                src="assets/cetemin.jpg" 
+                alt="CETEMIN Logo" 
+                class="h-16 w-auto ">
             </a>
           </div>
 
@@ -98,4 +99,4 @@ export class HeaderComponent {
   get currentUser() {
     return this.authService.getCurrentUser();
   }
-} 
+}

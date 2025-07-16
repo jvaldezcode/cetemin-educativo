@@ -6,8 +6,7 @@ export const routes: Routes = [
   // Rutas públicas
   {
     path: '',
-    redirectTo: '/dashboard',
-    pathMatch: 'full'
+    loadComponent: () => import('./features/home/home.component').then(m => m.HomeComponent)
   },
   
   // Rutas de autenticación

@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
   template: `
     <!-- Page Header -->
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900">Angular Avanzado</h1>
+      <h1 class="text-3xl font-bold text-gray-900">Seguridad y salud en el trabajo</h1>
       <p class="mt-2 text-gray-600">Aprende Angular desde cero hasta nivel avanzado con proyectos reales.</p>
     </div>
 
@@ -63,7 +63,7 @@ import { RouterModule } from '@angular/router';
               <div class="border border-gray-200 rounded-lg p-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <h3 class="font-medium text-gray-900">Módulo 1: Introducción a Angular</h3>
+                    <h3 class="font-medium text-gray-900">Módulo 1: Introducción a la seguridad industrial</h3>
                     <p class="text-sm text-gray-500">3 lecciones • 45 minutos</p>
                   </div>
                   <span class="text-sm text-green-600">✓ Completado</span>
@@ -72,7 +72,7 @@ import { RouterModule } from '@angular/router';
               <div class="border border-gray-200 rounded-lg p-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <h3 class="font-medium text-gray-900">Módulo 2: Componentes y Templates</h3>
+                    <h3 class="font-medium text-gray-900">Módulo 2: Normativas legales</h3>
                     <p class="text-sm text-gray-500">5 lecciones • 1 hora 15 minutos</p>
                   </div>
                   <span class="text-sm text-blue-600">En progreso</span>
@@ -81,7 +81,7 @@ import { RouterModule } from '@angular/router';
               <div class="border border-gray-200 rounded-lg p-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <h3 class="font-medium text-gray-900">Módulo 3: Servicios y Dependency Injection</h3>
+                    <h3 class="font-medium text-gray-900">Módulo 3: Actos y condiciones</h3>
                     <p class="text-sm text-gray-500">4 lecciones • 1 hora</p>
                   </div>
                   <span class="text-sm text-gray-500">Bloqueado</span>
@@ -90,7 +90,7 @@ import { RouterModule } from '@angular/router';
               <div class="border border-gray-200 rounded-lg p-4">
                 <div class="flex items-center justify-between">
                   <div>
-                    <h3 class="font-medium text-gray-900">Módulo 4: Routing y Navegación</h3>
+                    <h3 class="font-medium text-gray-900">Módulo 4: Documentos legales</h3>
                     <p class="text-sm text-gray-500">6 lecciones • 1 hora 30 minutos</p>
                   </div>
                   <span class="text-sm text-gray-500">Bloqueado</span>
@@ -111,7 +111,7 @@ import { RouterModule } from '@angular/router';
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10m-10 0a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2"></path>
               </svg>
             </div>
-            <h3 class="text-lg font-semibold text-gray-900">Angular Avanzado</h3>
+            <h3 class="text-lg font-semibold text-gray-900">Seguridad y salud en el trabajo</h3>
             <p class="text-2xl font-bold text-gray-900 mt-2">$49.99</p>
           </div>
           
@@ -153,8 +153,8 @@ import { RouterModule } from '@angular/router';
           <div class="flex items-center space-x-3">
             <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
             <div>
-              <h4 class="font-medium text-gray-900">María García</h4>
-              <p class="text-sm text-gray-600">Desarrolladora Senior</p>
+              <h4 class="font-medium text-gray-900">Sophia Fuentes</h4>
+              <p class="text-sm text-gray-600">Instructora especializada</p>
             </div>
           </div>
         </div>
